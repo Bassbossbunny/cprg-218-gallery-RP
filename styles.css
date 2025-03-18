@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+/* Unchanging elements across website*/
+/* less than 768px wide */
+    body {
+        background-color:  #cccccc;
+    }
+
+    body header {
+        background-color: #120323;
+        color: #97bf04;
+    }
+
+    nav {
+        background-color: #d9043d;
+        color: white;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    #gallery-container {
+        display: grid;
+    }
+
+    #gallery-container img {
+        border-bottom: 10px solid #97bf04;
+    }
+
+    footer {
+        background-color: #d9043d;
+    }
+
+
+
+/* Media Queries */
+
+/* less than 1000px wide */
+
+
+/*1000px wide or greater */
