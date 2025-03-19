@@ -7,14 +7,14 @@ All CSS content was created by Rachel Payette and, therefore, requires no attrib
 All HTML Elements were created and provided by Dan Stephenson.
 
 **Websites referenced for syntax correction**:
--W<sup>3</sup> Schools.com
--Docs.Github.com
--
 
+W<sup>3</sup> Schools.com
+
+Docs.Github.com
 
 **Code Validators used**:
--
--
+
+https://jigsaw.w3.org/css-validator/validator
 
 Cheers, 
 > Rachel 
