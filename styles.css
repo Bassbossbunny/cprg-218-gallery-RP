@@ -86,6 +86,46 @@
 /* Media Queries */
 
 /* less than 1000px wide */
+@media screen and (min-width: 767px) {
+    main h2{
+        text-align: center;
+        margin: 2rem;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: -1rem 0;
+    }
+
+    nav ul {
+        display: flex;
+        margin: 0 0 -1rem;
+        justify-content: center;
+        width: 100%;
+        background-color: #d9043d;
+      }
+
+    nav li a{
+        border: 0px;
+    }
+ 
+    #gallery-container {
+
+        grid-template-columns: 1fr 1fr;
+
+    } 
+
+    #gallery-container :last-of-type {
+        grid-column: span 2;
+    }
+}
 
 
 /*1000px wide or greater */
+@media screen and (min-width: 1000px) {
+    body {
+
+    }
+}
