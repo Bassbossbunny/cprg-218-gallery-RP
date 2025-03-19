@@ -11,15 +11,48 @@
     body header {
         background-color: #120323;
         color: #97bf04;
+        display: block;
+        text-align: center;
     }
 
     nav {
-        background-color: #d9043d;
-        color: white;
+
+        width: 90%;
+        margin: 0 auto;
+          
     }
 
     nav ul {
+    
         list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        
+    }
+
+
+    nav li{
+            display: block;
+        padding: 1rem 0 0;
+      }
+
+
+    nav li a{
+        background-color: #d9043d;
+        color: #FAF7EF;
+        text-decoration: none; 
+        border: 1px solid #97bf04; 
+        display: block;
+        padding: 1rem;
+ 
+    }
+
+    nav li a:hover{
+        color: #A7B4A4;
+        text-decoration: underline overline;
+    
     }
 
     #gallery-container {
